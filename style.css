@@ -1,0 +1,54 @@
+
+.cv-container {
+    font-family: Arial, sans-serif;
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  header h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  header h2 {
+    font-size: 22px;
+    color: #555;
+    margin-top: 0;
+  }
+  
+ 
+  h2 {
+    color: #333;
+    font-size: 24px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  ul li::before {
+    content: '•';
+    color: #007bff;
+    margin-right: 8px;
+  }
+  
